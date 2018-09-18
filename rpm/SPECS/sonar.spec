@@ -13,7 +13,7 @@ Vendor:		SonarSource
 Packager:	Evgeny Mandrikov <mandrikov@gmail.com>
 Group:		Development/Tools
 License:	LGPLv3
-URL:		http://sonarsource.org/
+URL:		https://sonarsource.bintray.com/Distribution/sonarqube/
 Source:		sonarqube-%{ver}.zip
 Source1:	sonar.init.in
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)

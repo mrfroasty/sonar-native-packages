@@ -1,0 +1,12 @@
+version: "2"
+services:
+    web:
+      build:
+          context: .
+          dockerfile: Dockerfile-dev
+      volumes_from:
+          - appdata
+    appdata:
+        image: tianon/true
+        volumes:
+            - .:/var/tmp
